@@ -1,3 +1,21 @@
+/** {
+  width: tamaño;
+  height: tamaño;
+  padding: 10px;
+  padding-top: 10px;
+  padding-right: 13px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding: 10px 13px 5px 15px;
+  margin: 10px;
+  margin-top: 10px;
+  margin-right: 13px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin: 10px 13px 5px 15px;
+  border: 2px solid red;
+}*/
+
 body {
 	font-family: 'Allerta', sans-serif;
 	margin: 0;
@@ -33,6 +51,7 @@ body {
 }
 
 .guitarras h2 {
+  font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
 }
 
@@ -165,3 +184,26 @@ body {
 	margin-top: 10px;
 }
 
+
+table {
+  width: 100%;
+}
+
+th {
+  background: #273b47;
+  color: white;
+}
+
+th {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+td {
+  padding: 20px;
+}
+
+table, td, th {
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
